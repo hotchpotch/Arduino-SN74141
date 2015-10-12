@@ -1,7 +1,7 @@
 
 # SN74141 library for Arduino
 
-SN74141 is always driving Nixie Tubes library for Arduino.
+SN74141 (SN74141N) is always driving Nixie Tubes library for Arduino.
 
 ## download
 
