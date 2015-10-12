@@ -1,0 +1,16 @@
+{
+  "name": "SN74141",
+  "keywords": "nixie",
+  "description": "Library for SN74141",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/hotchpotch/Arduino-SN74141.git"
+  },
+  "authors":
+  {
+    "name": "yuichi-tateno"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
