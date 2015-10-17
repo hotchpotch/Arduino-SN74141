@@ -2,7 +2,8 @@
 #ifndef __SN74141_H__
 #define __SN74141_H__
 
-#define SN74141_OUTPUT_PIN_MAX 9
+#define SN74141_OUTPUT_PIN_MAX 10 // 10 is NONE
+#define SN74141_OUTPUT_NONE 10
 
 class SN74141
 {

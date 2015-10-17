@@ -14,6 +14,9 @@ void setup() {
 }
 
 void loop() {
+  Serial.println("outputPin: NONE");
+  sn74141.outputPin(SN74141_OUTPUT_NONE);
+  delay(1000);
   for (uint8_t i = 0; i < 10; i++) {
     Serial.print("outputPin: ");
     Serial.println(i);
