@@ -2,7 +2,7 @@
 #ifndef __SN74141_H__
 #define __SN74141_H__
 
-#define SN74141_OUTPUT_PIN_MAX 10 // 10 is NONE
+#define SN74141_OUTPUT_PIN_MAX 10
 #define SN74141_OUTPUT_NONE 10
 
 class SN74141
@@ -13,6 +13,7 @@ public:
   SN74141(uint8_t a_pin, uint8_t b_pin ,uint8_t c_pin ,uint8_t d_pin);
   void begin();
   bool outputPin(uint8_t out_pin);
+  bool outputNone();
 };
 
 #endif  // __SN74141_H__

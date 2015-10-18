@@ -14,7 +14,8 @@ static uint8_t SN74141_FN_TABLE[][4] =
   { LOW  , HIGH , HIGH , LOW  } , // 6
   { LOW  , HIGH , HIGH , HIGH } , // 7
   { HIGH , LOW  , LOW  , LOW  } , // 8
-  { HIGH , LOW  , LOW  , HIGH }   // 9
+  { HIGH , LOW  , LOW  , HIGH } , // 9
+  { HIGH , HIGH , HIGH , HIGH }   // NONE
 };
 
 
@@ -42,5 +43,10 @@ bool SN74141::outputPin(uint8_t out_pin)
   } else {
     return false;
   }
+}
+
+void SN74141::outputNone()
+{
+  outputPin(SN74141_OUTPUT_NONE);
 }
 
