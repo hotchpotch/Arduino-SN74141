@@ -45,8 +45,8 @@ bool SN74141::outputPin(uint8_t out_pin)
   }
 }
 
-void SN74141::outputNone()
+bool SN74141::outputNone()
 {
-  outputPin(SN74141_OUTPUT_NONE);
+  return outputPin(SN74141_OUTPUT_NONE);
 }
 
